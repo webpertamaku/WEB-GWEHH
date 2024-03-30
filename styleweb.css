@@ -1,0 +1,76 @@
+*,
+html{
+    margin :0;
+    padding :0;
+}
+
+.container {}
+
+.container-Instagram {
+background-color: #59575a;
+width: 100%;
+height: 15vh;
+}
+
+.ul-Instagram {
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.li-Instagram {
+list-style-type: none;
+padding: 20px;
+margin: 5px;
+color: aliceblue;
+font-size: 30px;
+}
+
+.li-Instagram :hover {
+    background-color: rgb(75, 74, 74);
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-instagram{
+    color: rgb(249, 251, 252);
+    text-decoration: none ;
+}
+
+.container-addres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.a-adress {
+    background-color: #ece9ed;
+    width: 420px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 16px 12px 2px rgba(0,0,0,0.76);
+-webkit-box-shadow: 10px 16px 12px 2px rgba(0,0,0,0.76);
+-moz-box-shadow: 10px 16px 12px 2px rgba(0,0,0,0.76);
+border-radius: 50px;
+}
+
+.img-addres {
+    width: 45%;
+    height: 65%;
+}
+
+.container-contact {
+    background-color: #59575a;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.h1-contact {
+    font-size: 25px;
+}
